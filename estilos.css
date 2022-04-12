@@ -310,6 +310,11 @@ header label{
     color: var(--limon);
 }
 
+.suscribete label{
+    color: whitesmoke;
+    font-size: 1.8rem;
+}
+
 .opiniones .caja-contenedor{
     display: flex;
     align-items: center;
@@ -363,6 +368,21 @@ header label{
     font-size: 1.5rem;
     padding: 1rem;
 }
+
+.opiniones button{
+    padding: 2rem 2rem;
+    border: .1rem solid green;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem 1rem grba(255, 255, 255, .1);
+    cursor: pointer;
+}
+
+.opiniones video{
+    width: 500px;
+    height: 500px;
+}
+
+
 
 .precios .caja-contenedor{
     display: flex;

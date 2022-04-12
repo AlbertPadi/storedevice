@@ -110,10 +110,14 @@
     <div class="suscribete">
         <h3>suscribete para mas</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, iure!</p>
-        <form action="">
-            <input type="email" placeholder="Ingresa tu email">
+        <form action="" id="form">
+            <input type="email" id="email-form" placeholder="Ingresa tu email">
             <input type="submit" value="suscribete">
         </form>
+        <label for="">
+            <input type="checkbox" id="activador">
+            terminos y condiciones
+        </label>
     </div>
 
     <!--=============================== Seccion Opiniones===============================-->
@@ -180,9 +184,19 @@
                 </div>
             </div>
         </div>
+
+
+
+        <!--controls para los controles del video-->
+    <video id="video" class="video" src="Recursion.mp4"></video>
+    <button id="play">PLAY</button>
+    <button id="pause">PAUSE</button>
     </section>
 
+
+
     <!--=============================== Seccion Precios===============================-->
+    
     <section class="precios" id="precios">
         <h1 class="heading">precios de planes</h1>
         <div class="caja-contenedor">
@@ -302,6 +316,7 @@
     <script>
         document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
+    <script src="app.js"></script>
 </body>
 
 </html>
